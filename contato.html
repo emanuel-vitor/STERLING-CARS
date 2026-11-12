@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | Sterling Cars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+      <a href="index.html" class="logo">Sterling Cars</a>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="estoque.html">Estoque</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="localizacao.html">Localização</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+</header>
+  <section>
+    <div class="container">
+      <h2>Fale com a gente</h2>
+
+      <form id="formulario">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" required>
+
+        <label for="carro">Carro de interesse</label>
+            <select id="carro">
+                <option>Lamborghini Gallardo</option>
+                <option>McLaren Senna</option>
+                <option>McLaren Senna GTR</option>
+                <option>Bugatti Divo</option>
+                <option>Koenigsegg Jesko</option>
+                <option>Koenigsegg Jesko Absolut</option>
+                <option>Pagani Zonda F</option>
+                <option>Pagani Zonda R</option>
+                <option>Mercedes-Benz SLR McLaren</option>
+            </select>
+
+        <label for="texto">Mensagem</label>
+        <textarea id="texto" rows="4"></textarea>
+
+        <button type="submit" class="botao">Enviar</button>
+        <p id="mensagem"></p>
+      </form>
+    </div>
+  </section>
+<footer>
+    <div class="rodape">
+      Sterling Cars - By Emanuel Vitor
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
