@@ -66,6 +66,13 @@ header .container {
   color: #f5c400;
 }
 
+.logo img {
+  height: 72px;
+  width: auto;
+  display: block;
+  mix-blend-mode: screen;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -662,12 +669,12 @@ footer {
   }
 }
 
-/* Celular */
 @media (max-width: 600px) {
+
   header {
     position: static;
   }
-  
+
   header .container {
     flex-direction: column;
     text-align: center;
@@ -685,6 +692,10 @@ footer {
 
   .btn-carrinho {
     padding: 8px 14px;
+  }
+
+  .logo img {
+    height: 64px;
   }
 
   .banner {
@@ -729,7 +740,7 @@ footer {
   form {
     padding: 22px 18px;
   }
-  
+
   #carrinho {
     width: 100%;
   }
